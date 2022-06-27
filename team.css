@@ -1,0 +1,383 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    margin-left: 80px !important;
+}
+
+#collapsibleNavbar {
+    margin-left: 800px !important;
+}
+
+.team-header {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right, #110909d1, #00000023), url("/sekil/team.jpg");
+    position: relative;
+}
+
+.team-header h1 {
+    padding-top: 300px;
+    padding-left: 80px;
+    color: white;
+}
+
+.team-about {
+    display: flex;
+}
+
+.team-about i {
+    font-size: 35px;
+    margin: 20px 40px 20px 80px;
+}
+
+.team-about i::after {
+    width: 2px;
+    height: 100px;
+    background-color: red;
+    content: "";
+    left: 143px;
+    position: absolute;
+    top: 350px;
+}
+
+.team-about p {
+    width: 20%;
+}
+
+.middle {
+    width: 80%;
+    left: 150px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F4F4;
+    top: 500px;
+}
+
+.middle-text1 {
+    width: 50%;
+    height: 300px;
+}
+
+.middle-text1 h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.middle-text1 p {
+    width: 70%;
+    margin-left: 90px;
+}
+
+.middle-text2 {
+    width: 50%;
+}
+
+.middle-text3 {
+    width: 100%;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    margin-left: 40px;
+}
+
+.text1 {
+    margin-top: 40px;
+}
+
+.text i {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.context {
+    width: 30%;
+    padding-left: 60px;
+}
+
+.context i {
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.context p {
+    margin-left: 20px;
+}
+
+
+
+
+.main-big {
+    width: 80%;
+    margin: 450px auto 0px auto;
+}
+
+.main {
+    display: flex;
+}
+
+.main-left {
+    width: 50%;
+}
+
+.main-left img {
+    width: 100%;
+}
+
+.main-right {
+    width: 50%;
+}
+
+.main-right h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-right p {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.second img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-media {
+    display: none;
+}
+
+.staff {
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: #F4F4F4;
+}
+
+.staff h1 {
+    text-align: center;
+}
+
+.staff-doctors {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctors {
+    width: 30%;
+}
+
+.doctors h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.doctors img {
+    width: 80%;
+    height: 340px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 4px solid white;
+}
+
+footer {
+    width: 100%;
+    height: 420px;
+    background-color: #00252E;
+}
+
+.footer-name {
+    display: flex;
+}
+
+.footer-name i {
+    font-size: 30px;
+    color: white;
+    margin-left: 16px;
+}
+
+.footer-name h3 {
+    margin-left: 10px;
+    color: white;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div {
+    margin-top: 80px;
+    width: 22%;
+    height: 300px;
+}
+
+.div1 {
+    margin-left: 50px;
+}
+
+.div h4 img {
+    margin-bottom: 20px;
+}
+
+.same {
+    padding-top: 100px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.div4 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.div4 i {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 70px;
+    color: white;
+}
+
+.little {
+    margin: 0px auto 8px;
+    width: 100%;
+    display: flex;
+}
+
+.little p {
+    margin: 8px 0px 10px;
+    width: 70%;
+    color: white;
+}
+
+.little i {
+    margin: 10px 10px 0px 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.finish p {
+    margin: 0px 70px 0px 0px;
+    float: right;
+    color: white;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 0px !important;
+    }
+
+    .team-header {
+        background-size: cover;
+        height: 400px;
+    }
+
+    .team-header h1 {
+        padding-top: 150px;
+        width: 40%;
+        padding-left: 40px;
+    }
+
+    .team-about i {
+        font-size: 25px;
+        margin: 25px 20px 25px 45px;
+    }
+
+    .team-about i::after {
+        left: 80px;
+        top: 230px;
+    }
+
+    .team-about p {
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .middle {
+        width: 100%;
+        position: static;
+    }
+
+    .middle-text1 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .middle-text1 p {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .middle-text2 {
+        width: 100%;
+    }
+
+    .middle-text3 {
+        display: block;
+    }
+
+    .context {
+        width: 100%;
+        padding: 27px;
+    }
+
+    .context p {
+        margin-left: 0px;
+    }
+
+    .context i {
+        margin-left: 190px;
+    }
+
+    .main-big {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main-left {
+        width: 100%;
+    }
+
+    .main-right {
+        width: 100%;
+    }
+
+    .main-right p {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .main-web {
+        display: none;
+    }
+
+    .main-media {
+        display: block;
+    }
+
+    .staff-doctors {
+        display: block;
+    }
+
+    .doctors {
+        width: 100%;
+    }
+}

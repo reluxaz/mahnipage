@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F6;
+}
+
+.navbar-brand {
+    margin-left: 80px !important;
+}
+
+#collapsibleNavbar {
+    margin-left: 800px !important;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin: 180px auto 120px auto;
+    position: relative;
+}
+
+.header-left {
+    width: 50%;
+    background-image: url("/sekil/cat-image2.jpg");
+    background-size: cover;
+}
+
+.header-right {
+    width: 50%;
+    background-image: url("/sekil/dog-image.png");
+    background-size: cover;
+}
+
+.basket {
+    width: 30%;
+    height: 500px;
+    /* background-color: #F5F5F6; */
+    position: absolute;
+    left: 540px;
+    overflow-y: auto;
+    box-shadow:
+        0px 2px 10px rgba(0, 0, 0, 0.2),
+        0px 10px 20px rgba(0, 0, 0, 0.3),
+        0px 30px 60px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.1cm;
+}
+
+.basket h5 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.basket-bar {
+    width: 100%;
+    height: 60px;
+    background-color: #F5F5F6;
+    display: flex;
+}
+
+.basket-bar img {
+    width: 70px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.basket-bar p {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    width: 40%;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px 0px 140px;
+}
+
+.numbers span {
+    padding: 0px 15px;
+}
+
+footer {
+    width: 100%;
+    height: 420px;
+    background-color: #00252E;
+}
+
+.footer-name {
+    display: flex;
+}
+
+.footer-name i {
+    font-size: 30px;
+    color: white;
+    margin-left: 16px;
+}
+
+.footer-name h3 {
+    margin-left: 10px;
+    color: white;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div {
+    margin-top: 80px;
+    width: 22%;
+    height: 300px;
+}
+
+.div1 {
+    margin-left: 50px;
+}
+
+.div h4 img {
+    margin-bottom: 20px;
+}
+
+.same {
+    padding-top: 100px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.div4 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.div4 i {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 70px;
+    color: white;
+}
+
+.little {
+    margin: 0px auto 8px;
+    width: 100%;
+    display: flex;
+}
+
+.little p {
+    margin: 8px 0px 10px;
+    width: 70%;
+    color: white;
+}
+
+.little i {
+    margin: 10px 10px 0px 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.finish p {
+    margin: 0px 70px 0px 0px;
+    float: right;
+    color: white;
+    font-size: 15px;
+}
